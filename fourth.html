@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Box model</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+      .heading {
+        text-align: center;
+        color: #7433b2;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+      }
+      .card {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px;
+        width: 300px;
+        padding: 14px;
+        border-radius: 20px;
+        background-color: #7433b2;
+        box-shadow: 10px 10px 40px -10px #000;
+      }
+      .card-img {
+        width: 300px;
+        border-radius: 20px;
+      }
+      .card-heading {
+        font-family: sans-serif;
+        color: #fff;
+      }
+      .card-text {
+        font-family: sans-serif;
+        line-height: 155%;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading">Awesome cards</h1>
+
+    <div class="container">
+      <div class="card">
+        <img class="card-img" src="third_images/img_01.jpg" alt="img_01" />
+        <h3 class="card-heading">Some heading</h3>
+        <p class="card-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Quaerat, magni.
+        </p>
+      </div>
+      <div class="card">
+        <img class="card-img" src="third_images/img_02.jpg" alt="img_01" />
+        <h3 class="card-heading">Another heading</h3>
+        <p class="card-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+          alias repellendus at, earum facilis nostrum?
+        </p>
+      </div>
+      <div class="card">
+        <img class="card-img" src="third_images/img_03.jpg" alt="img_01" />
+        <h3 class="card-heading">Third heading</h3>
+        <p class="card-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+          repellendus at, nostrum?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
