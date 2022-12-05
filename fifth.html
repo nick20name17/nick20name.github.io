@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Semantic</title>
+
+    <style>
+      .header {
+        width: 1000px;
+        margin: 0 auto;
+      }
+      .logo {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .nav {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 520px;
+      }
+      .list {
+        list-style: none;
+      }
+      .list__item {
+        display: inline-block;
+        margin-right: 40px;
+      }
+      .nav__link {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+      }
+      .main {
+        width: 1000px;
+        margin: 0 auto;
+      }
+      .section {
+        margin-top: 10px;
+        padding: 20px;
+        background-color: rgb(222, 222, 222);
+        border-radius: 20px;
+      }
+      .title {
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .cards__wrapper {
+        text-align: center;
+      }
+      .card {
+        border-radius: 20px;
+        display: inline-block;
+        padding: 100px;
+        margin: 10px 8px;
+        max-width: 100px;
+        background-color: rgb(168, 168, 168);
+      }
+      .btn {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .footer {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="fourth_images/logo.png" alt="Logo" />
+      <nav class="nav">
+        <ul class="list">
+          <li class="list__item">
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="list__item">
+            <a class="nav__link" href="#">News</a>
+          </li>
+          <li class="list__item">
+            <a class="nav__link" href="#">Contacts</a>
+          </li>
+          <li class="list__item">
+            <a class="nav__link" href="#">Blog</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <h2 class="title">Some title</h2>
+        <div class="cards">
+          <div class="cards__wrapper">
+            <div class="card">HELLO</div>
+            <div class="card">HELLO</div>
+          </div>
+          <div class="cards__wrapper">
+            <div class="card">HELLO</div>
+            <div class="card">HELLO</div>
+          </div>
+        </div>
+        <a class="btn" href="">Click</a>
+      </section>
+      <section class="section">
+        <h2 class="title">Another title</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eos
+          maiores quis magnam porro enim officia labore totam optio
+          veritatis. Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Exercitationem, quasi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quod eos maiores quis magnam porro enim officia
+          labore totam optio veritatis. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quod eos maiores quis magnam.
+        </p>
+        <a class="btn" href="">Click</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="copyright">Copyright &copy;</div>
+    </footer>
+  </body>
+</html>
